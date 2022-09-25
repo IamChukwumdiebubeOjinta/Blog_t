@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bube's Blog</title>
+
+    <!-- External Links -->
+    <link href="./dist/output.css" rel="stylesheet" />
+
+    <!-- Poppins -->
+    <!-- DM Serif  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Poppins:wght@100;200;300;400&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Script -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="relative w-[100%]">
+      <div class="container mx-auto p-6">
+        <!-- Title -->
+        <div class="title">
+          <p class="leading-[2em] text-[22px] tracking-wider">
+            All you need in a Blog
+          </p>
+          <h1 class="text-[116px]">Bube's Blog</h1>
+        </div>
+        <!-- Navbar -->
+        <nav>
+          <!-- Menu -->
+          <ul class="nav-wrapper flex items-center justify-center">
+            <!-- List Items -->
+            <div class="">
+              <a class="" href="single.html">Technology</a>
+              <a class="" href="single.html">Design</a>
+              <a class="" href="single.html">Culture</a>
+              <a class="" href="single.html">Business</a>
+              <a class="" href="single.html">Politics</a>
+              <a class="" href="single.html">Travel</a>
+            </div>
+            <li class="">
+              <a class="" href="#">Subscribe</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Main -->
+    <main>
+      <!-- Hero -->
+      <section class="hero">
+        <div
+          class="container mx-auto mt-8 flex items-center justify-center relative flex-col flex-1"
+        >
+          <!-- Info-Box -->
+          <div
+            class="hero__info bg-white flex flex-col m-auto items-center justify-center border border-black border-t-0"
+          >
+            <!-- Title Box -->
+            <div
+              class="hero__title px-6 py-3 border border-black self-start mb-[-21px] z-10 bg-white"
+            >
+              Top News
+            </div>
+            <div class="bg__img">
+              <img src="./images/culture(3).jpg" alt="" />
+            </div>
+            <div
+              class="title flex flex-col items-start justify-center flex-wrap"
+            >
+              <div class="flex flex-col ml-6">
+                <span>Date</span>
+                <h3>Title</h3>
+              </div>
+              <p class="text-left ml-6">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi
+                neque autem est, id pariatur architecto magnam.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About -->
+      <section class="about mb-5">
+        <div
+          class="about__inner container mx-auto px-6 py-4 flex flex-1 justify-between"
+        >
+          <h1 class="text-[38px] font-bold flex-[0.5]">Always be up to date</h1>
+          <div class="flex flex-[0.5] gap-3">
+            <div class="flex flex-col">
+              <label for="text" class="mb-2">Enter Your Email*</label>
+              <input
+                type="text"
+                id="text"
+                class="outline-none border-b border-black"
+              />
+            </div>
+            <button class="w-[150px] h-[50px] bg-black text-white">
+              Subscribe
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Explore More -->
+      <section class="explore">
+        <div class="flex flex-1 container mx-auto">
+          <div
+            class="explore__details flex flex-col flex-[0.6] gap-6 px-8 py-6"
+          >
+            <h2 class="font-light tracking-[0.4em]">Explore More</h2>
+
+            <!-- Post Entries -->
+            <div class="post-entry">
+              <a href="single.html" class="h-[100%]"
+                ><img src="./images/images (1).jpg" alt="" class="img-fluid"
+              /></a>
+
+              <div class="post-meta flex flex-col">
+                <span class="date">Jul 5th '22</span>
+
+                <h2>
+                  <a href="single.html">Let’s Get Back to Work, New York</a>
+                </h2>
+              </div>
+            </div>
+
+            <div class="post-entry">
+              <a href="single.html" class="h-[100%]"
+                ><img src="./images/images (1).jpg" alt="" class="img-fluid"
+              /></a>
+
+              <div class="post-meta flex flex-col">
+                <span class="date">Jul 17th '22</span>
+
+                <h2>
+                  <a href="single.html">Let’s Get Back to Work, New York</a>
+                </h2>
+              </div>
+            </div>
+
+            <div class="post-entry">
+              <a href="single.html" class="h-[100%]"
+                ><img src="./images/images (1).jpg" alt="" class="img-fluid"
+              /></a>
+              <div class="post-meta flex flex-col">
+                <span class="date">Jul 17th '22</span>
+
+                <h2>
+                  <a href="single.html">Let’s Get Back to Work, New York</a>
+                </h2>
+              </div>
+            </div>
+
+            <div class="post-entry">
+              <a href="single.html" class="h-[100%]"
+                ><img src="./images/images (1).jpg" alt="" class="img-fluid"
+              /></a>
+              <div class="post-meta flex flex-col">
+                <span class="date">Mar 15th '22</span>
+
+                <h2>
+                  <a href="single.html">Let’s Get Back to Work, New York</a>
+                </h2>
+              </div>
+            </div>
+          </div>
+          <div class="border-l border-black"></div>
+
+          <!-- Aside -->
+          <aside class="flex flex- px-8 py-6 flex-[0.4]">
+            <div class="aside flex flex-col gap-3 items-center justify-center">
+              <a href="single.html"
+                ><img
+                  src="./images/culture (2).jpg"
+                  alt="post-pic"
+                  class="img-fluid"
+              /></a>
+
+              <div class="aside-detail">
+                <div class="mb-2">
+                  <span class="date">Culture</span> <span class="mx-1">•</span>
+                  <span>Jul 5th '22</span>
+                </div>
+
+                <h2 class="mb-2 text-[24px]">
+                  <a
+                    href="single.html"
+                    class="underline hover:no-underline tracking-wide"
+                    >East African Tradition and Culture</a
+                  >
+                </h2>
+                <p class="mb-4">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero
+                  temporibus repudiandae, inventore pariatur numquam cumque
+                  possimus exercitationem? Nihil tempore odit ab minus eveniet
+                  praesentium, similique blanditiis molestiae ut saepe
+                  perspiciatis officia nemo, eos quae cumque. Accusamus fugiat
+                  architecto rerum animi atque eveniet, quo, praesentium
+                  dignissimos.
+                </p>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <div id="footer" class="text-center footer border-t border-black mt-3">
+      <div class="container mx-auto">
+        <p>© Copyrights Bube's_Blog. All rights reserved.</p>
+      </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="./app.js"></script>
+    <script src="./api.js"></script>
+  </body>
+</html>
